@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.App{
+    height: 100vh;
+    padding-top: 10px;
+    background-color: #1b1b32;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-azarquiel-contenedor{
+    width: 500px;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contenedor-calculadora{
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+    background-color: #99c9ff;
+    border: 5px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fila{
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
